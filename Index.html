@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aubday's Blog</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Aubday's Blog</h1>
+    <p>Thoughts, designs & tech life</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About Me</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="form-section">
+      <h2>Post a New Blog Entry</h2>
+      <form id="blogForm">
+        <input type="text" id="title" placeholder="Blog Title" required /><br />
+        <textarea id="content" placeholder="Write your blog content here..." rows="5" required></textarea><br />
+        <button type="submit">Submit Post</button>
+      </form>
+    </section>
+    <section id="posts">
+      <!-- Blog posts will be displayed here -->
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Aubday Creations. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
